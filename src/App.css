@@ -1,0 +1,80 @@
+.App {
+  width: 80%;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.table {
+    margin-top: 50px;
+}
+
+.table-row {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 0;
+  flex-wrap: wrap;         
+  width: 100%;
+  padding: 5px 15px 0 15px;
+  border-bottom: 2px solid #EDEDED;
+  border-collapse: collapse;
+}
+
+.table-row.header {
+  background-color: #FEEFDD;
+  font-weight: bold;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.table-row:not(.header):nth-child(2n+1) {
+  background-color: #FBFBFB;
+}
+
+.repo-id {
+  flex-grow: 1;
+  width: 10%;
+}
+
+.repo-name {
+  flex-grow: 3;
+  width: 20%;
+}
+
+.repo-description {
+  flex-grow: 5;
+  width: 65%;
+}
+
+.repo-stars {
+  flex-grow: 1;
+  width: 5%;
+  text-align: right;
+}
+
+.user-id {
+  flex-grow: 1;
+  width: 10%;
+}
+
+.user-login {
+  flex-grow: 3;
+  width: 30%;
+}
+
+.user-avatar {
+  flex-grow: 3;
+  width: 40%;
+}
+
+.user-avatar img {
+  max-width: 100px;
+}
+
+button {
+  border-radius: 5px;
+  height: 35px;
+  padding: 10px;
+  border: 1px solid #BBBBBB;
+  margin-top: 20px;
+  cursor: pointer;
+}
