@@ -1,8 +1,8 @@
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
-Steps to run the code:
-1. `npm install`
-2. `npm run start`
+Steps to run the code:  
+1. `npm install`  
+2. `npm run start`  
 
 The app is running on http://localhost:3000
 
